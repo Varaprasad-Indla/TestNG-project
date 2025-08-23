@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="functionaltesting" verbose="1" parallel = "classes" thread-count="4">
+	<test name = "Functional testcases">	
+	<groups>
+<run>
+<exclude name="Regression"/>
+</run>
+</groups>
+    <classes>
+      <class name="Labsession16_08.GroupingTests"/>
+    </classes>
+  </test>
+	
+</suite>

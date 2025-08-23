@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="classes" name="Failed suite [functionaltesting]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="classes" name="Functional testcases(failed)">
+    <groups>
+      <run>
+        <exclude name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.wipro.testng.TestNGMultipletestcases">
+        <methods>
+          <include name="testalerts"/>
+          <include name="testdragdrop"/>
+        </methods>
+      </class> <!-- com.wipro.testng.TestNGMultipletestcases -->
+    </classes>
+  </test> <!-- Functional testcases(failed) -->
+</suite> <!-- Failed suite [functionaltesting] -->

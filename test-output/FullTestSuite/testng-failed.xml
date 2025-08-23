@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FullTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AllTests(failed)">
+    <classes>
+      <class name="Labsession18_08.Allwebsites$FormFilling">
+        <methods>
+          <include name="FormFilling"/>
+        </methods>
+      </class> <!-- Labsession18_08.Allwebsites$FormFilling -->
+    </classes>
+  </test> <!-- AllTests(failed) -->
+</suite> <!-- Failed suite [FullTestSuite] -->

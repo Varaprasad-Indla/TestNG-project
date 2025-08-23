@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-23T12:40:32 IST" name="functionaltesting" finished-at="2025-08-23T12:40:32 IST" duration-ms="65">
+    <groups>
+      <group name="Smoke">
+        <method signature="GroupingTests.loginTest()[pri:0, instance:Labsession16_08.GroupingTests@441772e]" name="loginTest" class="Labsession16_08.GroupingTests"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-08-23T12:40:32 IST" name="Functional testcases" finished-at="2025-08-23T12:40:32 IST" duration-ms="65">
+      <class name="Labsession16_08.GroupingTests">
+        <test-method signature="loginTest()[pri:0, instance:Labsession16_08.GroupingTests@441772e]" started-at="2025-08-23T12:40:32 IST" name="loginTest" finished-at="2025-08-23T12:40:32 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- Labsession16_08.GroupingTests -->
+    </test> <!-- Functional testcases -->
+  </suite> <!-- functionaltesting -->
+</testng-results>

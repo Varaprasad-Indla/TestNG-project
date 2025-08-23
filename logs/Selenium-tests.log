@@ -1,0 +1,21 @@
+2025-08-20 11:20:25 [main] INFO  TestNGTestcaseLog4j - Starting login test...
+2025-08-20 11:20:33 [main] INFO  TestNGTestcaseLog4j - Opened browser and navigated to saucedemo
+2025-08-20 11:20:35 [main] INFO  TestNGTestcaseLog4j - Entered username
+2025-08-20 11:20:37 [main] INFO  TestNGTestcaseLog4j - Entered password
+2025-08-20 11:20:39 [main] INFO  TestNGTestcaseLog4j - Clicked login button
+2025-08-20 11:20:41 [main] INFO  TestNGTestcaseLog4j - Browser closed
+2025-08-20 11:46:15 [main] INFO  TestNGTestcase - Invoking the browser
+2025-08-20 11:46:15 [main] INFO  TestNGTestcase - Entering the username
+2025-08-20 11:46:19 [main] INFO  TestNGTestcase - Entering the password
+2025-08-20 11:46:31 [main] INFO  TestNGTestcase - Invoking the browser
+2025-08-20 11:46:31 [main] INFO  TestNGTestcase - Entering the username
+2025-08-20 11:46:35 [main] INFO  TestNGTestcase - Entering the password
+2025-08-20 11:46:46 [main] INFO  TestNGTestcase - Invoking the browser
+2025-08-20 11:46:46 [main] INFO  TestNGTestcase - Entering the username
+2025-08-20 11:46:50 [main] INFO  TestNGTestcase - Entering the password
+2025-08-20 11:47:02 [main] INFO  TestNGTestcase - Invoking the browser
+2025-08-20 11:47:02 [main] INFO  TestNGTestcase - Entering the username
+2025-08-20 11:47:06 [main] INFO  TestNGTestcase - Entering the password
+2025-08-20 11:47:18 [main] INFO  TestNGTestcase - Invoking the browser
+2025-08-20 11:47:18 [main] INFO  TestNGTestcase - Entering the username
+2025-08-20 11:47:22 [main] INFO  TestNGTestcase - Entering the password
