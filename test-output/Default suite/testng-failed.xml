@@ -3,13 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.wipro.Grid.SeleniumGridTestcase">
+      <class name="project_TestNG.DemoBlazeProject">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="setDriver"/>
+          <include name="signUp"/>
           <include name="login"/>
+          <include name="addToCart"/>
+          <include name="placeOrder"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
         </methods>
-      </class> <!-- com.wipro.Grid.SeleniumGridTestcase -->
+      </class> <!-- project_TestNG.DemoBlazeProject -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

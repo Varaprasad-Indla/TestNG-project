@@ -1,20 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-23T12:40:32 IST" name="functionaltesting" finished-at="2025-08-23T12:40:32 IST" duration-ms="65">
+  <suite started-at="2025-09-03T15:58:41 IST" name="DemoBlazeSuite" finished-at="2025-09-03T16:00:12 IST" duration-ms="90864">
     <groups>
-      <group name="Smoke">
-        <method signature="GroupingTests.loginTest()[pri:0, instance:Labsession16_08.GroupingTests@441772e]" name="loginTest" class="Labsession16_08.GroupingTests"/>
-      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2025-08-23T12:40:32 IST" name="Functional testcases" finished-at="2025-08-23T12:40:32 IST" duration-ms="65">
-      <class name="Labsession16_08.GroupingTests">
-        <test-method signature="loginTest()[pri:0, instance:Labsession16_08.GroupingTests@441772e]" started-at="2025-08-23T12:40:32 IST" name="loginTest" finished-at="2025-08-23T12:40:32 IST" duration-ms="14" status="PASS">
+    <test started-at="2025-09-03T15:58:41 IST" name="DemoBlazeTest" finished-at="2025-09-03T16:00:12 IST" duration-ms="90864">
+      <class name="project_TestNG.DemoBlazeProject">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:project_TestNG.DemoBlazeProject@74d1dc36]" started-at="2025-09-03T15:58:41 IST" name="launchBrowser" finished-at="2025-09-03T15:58:44 IST" duration-ms="3160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-      </class> <!-- Labsession16_08.GroupingTests -->
-    </test> <!-- Functional testcases -->
-  </suite> <!-- functionaltesting -->
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="signUp()[pri:1, instance:project_TestNG.DemoBlazeProject@74d1dc36]" started-at="2025-09-03T15:58:44 IST" name="signUp" finished-at="2025-09-03T15:59:00 IST" duration-ms="15384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method signature="login()[pri:2, instance:project_TestNG.DemoBlazeProject@74d1dc36]" started-at="2025-09-03T15:59:00 IST" name="login" finished-at="2025-09-03T15:59:12 IST" duration-ms="12308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addToCart()[pri:3, instance:project_TestNG.DemoBlazeProject@74d1dc36]" started-at="2025-09-03T15:59:12 IST" name="addToCart" finished-at="2025-09-03T15:59:42 IST" duration-ms="29608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="placeOrder()[pri:4, instance:project_TestNG.DemoBlazeProject@74d1dc36]" started-at="2025-09-03T15:59:42 IST" name="placeOrder" finished-at="2025-09-03T16:00:08 IST" duration-ms="25783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method signature="logout()[pri:5, instance:project_TestNG.DemoBlazeProject@74d1dc36]" started-at="2025-09-03T16:00:08 IST" name="logout" finished-at="2025-09-03T16:00:12 IST" duration-ms="4131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:project_TestNG.DemoBlazeProject@74d1dc36]" started-at="2025-09-03T16:00:12 IST" name="closeBrowser" finished-at="2025-09-03T16:00:12 IST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- project_TestNG.DemoBlazeProject -->
+    </test> <!-- DemoBlazeTest -->
+  </suite> <!-- DemoBlazeSuite -->
 </testng-results>
